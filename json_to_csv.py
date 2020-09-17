@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/Users/John/projects/json_to_csv/venv/bin/python
 """
 json_to_csv is a simple command line tool to convert json files to a csv output.
 
