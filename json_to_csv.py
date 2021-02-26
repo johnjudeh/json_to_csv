@@ -1,4 +1,4 @@
-#!/Users/John/projects/json_to_csv/venv/bin/python
+#!/Users/john/.pyenv/versions/json_to_csv/bin/python
 """
 json_to_csv is a simple command line tool to convert json files to a csv output.
 
@@ -35,5 +35,4 @@ if __name__ == '__main__':
     parser = create_arg_parser()
     args_dict = vars(parser.parse_args())
     json_to_csv(args_dict[ARGNAME_JSON_FILE], args_dict[ARGNAME_CSV_FILE])
-    print(f'Create csv file called {ARGNAME_CSV_FILE}')
-
+    print(f'Created csv file called {args_dict[ARGNAME_CSV_FILE]}')
