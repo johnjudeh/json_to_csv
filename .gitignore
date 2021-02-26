@@ -1,1 +1,5 @@
+# pyenv local config
+.python-version
+
+# virtual envs
 venv/
