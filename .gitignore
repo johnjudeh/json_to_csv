@@ -3,3 +3,6 @@
 
 # virtual envs
 venv/
+
+# VS code config
+.vscode/
